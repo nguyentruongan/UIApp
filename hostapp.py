@@ -17,7 +17,7 @@ app = HydraApp(
 #Home
 
 #app.add_app("Home",icon=":house:",app=apps.HomeApp(title='Home'), is_home=True)
-app.add_app("Trang chủ",icon=":email:",app=apps.HomeMainApp(title='Trang chủ'), is_home=True)
+app.add_app("Home",icon=":email:",app=apps.HomeMainApp(title='Home'), is_home=True)
 #app.add_app("About",icon=":house:",app=apps.AboutApp(title='About'))
 #app.add_app("Tính năng",icon=":house:",app=apps.SpecApp(title='Tính năng'))
 #app.add_app("Bảng giá",icon=":house:",app=apps.PriceApp(title='Bảng giá'))
