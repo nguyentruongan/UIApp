@@ -17,5 +17,7 @@ from apps.spec_app import SpecApp
 from apps.price_app import PriceApp
 from apps.homeapp import HomeMainApp
 from apps.qa_app import QAApp
+from apps.pdf_to_text_app import PDF2TextApp
+
 
 
