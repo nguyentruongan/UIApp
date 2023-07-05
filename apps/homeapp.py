@@ -11,5 +11,5 @@ class HomeMainApp(HydraHeadApp):
         self.title = title
 
     def run(self):
-        st.title('Home main app')
+        st.title('Home main app version 2')
         
