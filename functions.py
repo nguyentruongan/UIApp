@@ -82,12 +82,12 @@ def save_pages(pages):
   files = []
   for page in range(len(pages)):
     filename = "page_"+str(page)+".txt"
-    with open("./file_pages/"+filename, 'w', encoding="utf-8") as file:
+    with open("./apps/"+filename, 'w', encoding="utf-8") as file:
       file.write(pages[page])
       files.append(file.name)
   
   # create zipfile object
-  zipPath = './file_pages/pdf_to_txt.zip'
+  zipPath = './apps/pdf_to_txt.zip'
   zipObj = ZipFile(zipPath, 'w')
   for f in files:
     zipObj.write(f)
