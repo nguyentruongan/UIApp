@@ -3,5 +3,5 @@ openai
 langchain
 hydralit
 pdf2image
-pdfminer==20191125
+pdfminer
 pytesseract
