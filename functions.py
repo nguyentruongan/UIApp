@@ -10,10 +10,13 @@ import base64
 import pdf2image
 import pytesseract
 from pytesseract import Output, TesseractError
+from pdf2image import convert_from_bytes
 
 @st.cache_data
 def images_to_txt(path, language):
     images = pdf2image.convert_from_bytes(path)
+    #with open(path,'r') as f:
+    #   images = convert_from_bytes(f.read(),500)
     all_text = []
     for i in images:
         pil_im = i
@@ -82,12 +85,12 @@ def save_pages(pages):
   files = []
   for page in range(len(pages)):
     filename = "page_"+str(page)+".txt"
-    with open("./apps/"+filename, 'w', encoding="utf-8") as file:
+    with open("./file_pages/"+filename, 'w', encoding="utf-8") as file:
       file.write(pages[page])
       files.append(file.name)
   
   # create zipfile object
-  zipPath = './apps/pdf_to_txt.zip'
+  zipPath = './file_pages/pdf_to_txt.zip'
   zipObj = ZipFile(zipPath, 'w')
   for f in files:
     zipObj.write(f)
