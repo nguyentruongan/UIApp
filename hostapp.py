@@ -23,7 +23,9 @@ app.add_app("Home",icon=":email:",app=apps.HomeMainApp(title='Home'), is_home=Tr
 #app.add_app("Bảng giá",icon=":house:",app=apps.PriceApp(title='Bảng giá'))
 #app.add_app("Hướng dẫn",icon=":house:",app=apps.GuideApp(title='Hướng dẫn'))
 app.add_app("PDF2Text",icon=":house:",app=apps.PDF2TextApp(title='PDF2Text'))
-app.add_app("Q&A",icon=":house:",app=apps.QAApp(title='Q&A'))
+app.add_app("ChatGpt",icon=":house:",app=apps.ChatGptApp(title='ChatGpt'))
+app.add_app("Dashboard",icon=":house:",app=apps.DashboardApp(title='Dashboard'))
+app.add_app("AG Grid",icon=":house:",app=apps.AGGridApp(title='AG Grid'))
 
 
 

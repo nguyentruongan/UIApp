@@ -5,3 +5,6 @@ hydralit
 pdf2image
 pdfminer
 pytesseract
+hugchat
+streamlit-chat
+streamlit-extras
