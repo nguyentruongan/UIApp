@@ -21,6 +21,9 @@ from apps.pdf_to_text_app import PDF2TextApp
 from apps.chatgpt_app import ChatGptApp
 from apps.dashboard_app import DashboardApp
 from apps.aggrid_app import AGGridApp
+from apps.aggrid2_app import AGGrid2App
+
+
 
 
 

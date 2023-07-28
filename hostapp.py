@@ -26,6 +26,7 @@ app.add_app("PDF2Text",icon=":house:",app=apps.PDF2TextApp(title='PDF2Text'))
 app.add_app("ChatGpt",icon=":house:",app=apps.ChatGptApp(title='ChatGpt'))
 app.add_app("Dashboard",icon=":house:",app=apps.DashboardApp(title='Dashboard'))
 app.add_app("AG Grid",icon=":house:",app=apps.AGGridApp(title='AG Grid'))
+app.add_app("AG Grid v2",icon=":house:",app=apps.AGGrid2App(title='AG Grid 2'))
 
 
 
