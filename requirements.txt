@@ -8,3 +8,4 @@ pytesseract
 hugchat
 streamlit-chat
 streamlit-extras
+streamlit-aggrid
