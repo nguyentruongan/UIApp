@@ -9,4 +9,5 @@ hugchat
 streamlit-chat
 streamlit-extras
 streamlit-aggrid
+openpyxl
 
